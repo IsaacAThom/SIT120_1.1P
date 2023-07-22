@@ -3,7 +3,7 @@
 <head>
     <!-- Links to external stylesheet -->
     <link rel="stylesheet" href="mystyle.css">
-    <title>SIT120 - Week 1</title>
+    <title>SIT120 - 1.1P</title>
 <style>
     /* Internal CSS goes here */
     /* CSS applying to this webpage, changing the font, font size, text colour, the page background, and padding */
@@ -26,6 +26,10 @@
         height: 200px;
         float: right;
     }
+    /* Change colour of the list markers */
+    ul li::marker {
+        color: yellow;
+    }
 </style>
 </head>
 <body>
@@ -33,7 +37,7 @@
 <!-- Task Requires : inline css x, internal css (style) x, external css (.css) x -->
 <!-- Task Requires : Demonstration Video, link = "" -->
 <!-- Page header, including a font-size change -->
-<h1 style="font-size: 36px;">SIT120 Week 1 - Isaac McKissack</h1>
+<h1 style="font-size: 36px;">SIT120 1.1P - Isaac McKissack</h1>
 <!-- Image linked from my github profile picture, including alt text -->
 <img src="https://avatars.githubusercontent.com/u/79748378?v=4" alt="Photo of site author in a suit with a cardboard sword over their shoulder">
 <p>This is a webpage made for the 1.1P task in SIT120, demonstrating basic HTML and CSS. It's definitely not pretty, but it's more of a playground, right?</p>
@@ -57,9 +61,21 @@
             <td>24</td>
             <td>Application Development</td>
         </tr>
+        <tr>
+            <td>John</td>
+            <td>Smith</td>
+            <td>He/They</td>
+            <td>19</td>
+            <td>Game Design</td>
+        </tr>
     </tbody>
 </table>
-<br>
+<ul style="list-style: upper-roman;">
+    <li>First Item</li>
+    <li>Second Item</li>
+    <li>Third Item</li>
+    <li>Fourth Item</li>
+</ul>
 <!-- Form consisting of name + pronouns, with a border and padding applied -->
 <form style="border: 2px solid red; padding: 5px 5px 20px 20px;">
     <h3>Tell me about yourself!</h3>
