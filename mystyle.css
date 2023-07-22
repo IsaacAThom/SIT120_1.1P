@@ -18,7 +18,7 @@ td {
     padding: 10px;
     border: 2px solid red;
 }
-
+/* Background colour of body rows changes on hover */
 tbody tr:hover {
     background: #ccc;
 }
